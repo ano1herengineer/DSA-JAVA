@@ -16,7 +16,7 @@ public class primeno
         }
         else
         {
-             for(int i = 2; i<=Math.sqrt(n) ; i++)
+             for(int i = 2; i<=Math.sqrt(n) ; i++) //n = root(n) * root(n)
         {
             if(n % i == 0) // n is a multiple of i (i not equal to 1 or n )
             {
