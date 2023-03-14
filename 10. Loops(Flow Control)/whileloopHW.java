@@ -11,5 +11,6 @@ public class whileloopHW
             System.out.println("Hello World");
             counter++;
         }
+        //printed hello world 100 times 
     }
 }

@@ -1,7 +1,7 @@
 import java.io.*;
 
 public class dowhilehello
-{
+{ // simple hello world program using do while loop to print 10 times 
     public static void main(String args[])
     {
         int counter = 0;

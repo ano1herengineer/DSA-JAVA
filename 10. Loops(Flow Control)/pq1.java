@@ -9,3 +9,5 @@ public class pq1
         }
     }
 }
+
+// hello world is printed 2 times
