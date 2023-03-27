@@ -28,6 +28,8 @@
 // and the values of the array and target are between -10^4 and 10^4.
 
 
+// Easier Approach 
+
 // public class pq2 {
 //     public static void main(String args[]) {
 //         int nums[] = {4, 5, 6, 7, 0, 1, 2};

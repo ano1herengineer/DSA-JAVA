@@ -32,3 +32,5 @@ public class buyandsellstocks
         return maxProfit;
     }
 }
+
+// time complexity = O(n)

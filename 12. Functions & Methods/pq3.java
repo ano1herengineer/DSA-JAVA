@@ -34,6 +34,7 @@ public class pq3
             reverse = reverse * 10 + remainder;
             temp = temp / 10;
         }
+        // if the original and reverse number is equal than pallindrome
         if(n == reverse)
         {
             return true;

@@ -20,7 +20,7 @@ public class hollowrectangle
                 {
                     // boundary cells
                     System.out.print("*");
-                    
+                     
                 }
                 else
                 {

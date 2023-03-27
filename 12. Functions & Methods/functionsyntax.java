@@ -10,5 +10,6 @@ public class functionsyntax
         {
             System.out.println("Hello World");
         }
+        return; //mostly written for functions that have a written type
     }
 }

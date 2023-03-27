@@ -8,7 +8,7 @@ public class binomialcoefficient
          System.out.println(binCoeff(10, 2));
     }
 
-    public static int factorial(int n)
+    public static int factorial(int n)        //function to calculate factorial
     {
         int f = 1;
 
@@ -20,7 +20,7 @@ public class binomialcoefficient
 
     }
 
-    public static int binCoeff(int n, int r)
+    public static int binCoeff(int n, int r)   //function to calculate binomialCoefficient
     {
         int fact_n = factorial(n);
         int fact_r = factorial(r);

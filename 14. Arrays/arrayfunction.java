@@ -33,3 +33,8 @@ public class arrayfunction
 
     }
 }
+
+// Note that the nonChangeable parameter in the update method is passed by value,
+// so while its value is changed within the method, it does not change the value of the nonChangeable
+// variable in the  main method. On the other hand, the marks array is passed by reference, so any changes made to it within the 
+// update method are reflected in the main method.

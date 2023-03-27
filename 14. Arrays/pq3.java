@@ -1,4 +1,5 @@
-
+// question same  = buy and sell stocks 
+// same solution in buyandsellstocks.java in this directory 
 
 public class pq3{
     public static void main(String args[])
