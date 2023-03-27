@@ -20,7 +20,7 @@ public class bubblesort
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
-                    swaps = true; //if after 1 iteration swap is not incremented it states that the array is already sorted 
+                    swaps = true; //if after 1 iteration swap is not changed it states that the array is already sorted 
                 }
                 
             }

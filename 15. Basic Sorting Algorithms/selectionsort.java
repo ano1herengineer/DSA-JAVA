@@ -17,7 +17,8 @@ public class selectionsort
             int minPos = i;
             for(int j=i+1; j<arr.length; j++)
             {
-                if(arr[minPos] > arr[j])
+                if(arr[minPos] > arr[j]) // for decreasing order sorting 
+                                         // arr[minPos] < arr[j]
                 {
                     minPos = j;
                 }
@@ -39,3 +40,5 @@ public class selectionsort
         }
     }
 }
+
+//Time Complexity = O(n2)

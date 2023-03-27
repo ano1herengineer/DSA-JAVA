@@ -21,7 +21,7 @@ public class insertionsort
             int prev = i-1;
 
             // Looping through the previous values to find the position where current value needs to be inserted
-            while(prev >= 0 && arr[prev] > curr)
+            while(prev >= 0 && arr[prev] > curr)  // for descending (arr[prev] < curr)
             {
                 arr[prev+1] = arr[prev];
                 prev--;
@@ -42,3 +42,5 @@ public class insertionsort
         }
     }
 }
+
+// Time Complexity = O(n2)
