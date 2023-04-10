@@ -12,3 +12,7 @@ public class setithbit
         return n | bitMask;
     }
 }
+
+//    1010
+// |  0100
+// ans1100 i.e 14

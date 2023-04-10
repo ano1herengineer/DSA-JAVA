@@ -14,3 +14,7 @@ public class clearibits
         return n & bitMask;
     }
 }
+
+// eg 15 = 1111 
+// as i = 2 i.e 
+// the number will become 1000

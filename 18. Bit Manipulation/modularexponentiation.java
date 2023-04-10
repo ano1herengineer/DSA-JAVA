@@ -30,13 +30,11 @@ public class modularexponentiation
             //If y is odd, multiply x with result
             if((y & 1) != 0)
             {
-                     res = res * x;
+              res = res * x;
             }
-              
-
-                //y must be even now 
-                y = y>> 1;   // y =y/2
-                x = x * x;   // change x to x^2     
+         //y must be even now 
+          y = y>> 1;   // y =y/2
+          x = x * x;   // change x to x^2     
         }
         return res % p;
     }

@@ -12,3 +12,12 @@ public class clearithbit
         return n & bitMask;     // n AND BITMASK 
     }
 }
+
+
+// 10 = 1010
+// (1 << i) = where i =1 is 0010
+// ~(1 << i) = 1101
+
+// number & bitMask =    1010
+//                    &  1101
+//           Answer =    1000  i.e 8 in Decimal 
