@@ -1,0 +1,32 @@
+4 Pillars of OOPS
+
+1. Encapsulation = Encapsulation is defined as the wrapping up of data & methods under a single unit. It also implements data hiding.
+
+data = properties/attributes
+methods = functions
+
+Data Hiding = useless/sensitive data = make them private/default/protected using access specifiers.
+
+*Constructor = Constructor is a special method which is invoked automatically at the time of object creation.
+
+2. Inheritance: Inheritance is a mechanism in which one class acquires the properties and methods of another class. 
+The class that inherits the properties and methods is called the subclass or derived class, while the class 
+whose properties and methods are inherited is called the superclass or base class. Inheritance allows code reusability
+and helps in creating a hierarchy of classes. The subclass can override the methods of the superclass, which is called method overriding.
+
+3. Polymorphism: Polymorphism is the ability of an object to take on many forms. 
+In Java, polymorphism can be achieved through method overloading and method overriding. 
+Method overloading allows a class to have multiple methods with the same name but different 
+parameters, while method overriding allows a subclass to provide its own implementation of a 
+method that is already defined in its superclass. Polymorphism allows for more flexible and modular code.
+
+4. Abstraction: Abstraction is a concept of hiding the implementation details and showing only the essential features of the object. 
+It allows us to focus on what an object does instead of how it does it. In Java, abstraction 
+can be achieved through abstract classes and interfaces. An abstract class is a class that 
+cannot be instantiated and may contain abstract methods that must be implemented by its subclasses. 
+An interface is a collection of abstract methods that can be implemented by any class that implements the interface. 
+Abstraction allows for code reusability, modular design, and reduced complexity.
+
+By using all four pillars of OOP, we can create programs that are more modular, flexible, and easy to maintain. 
+Each pillar serves a specific purpose in helping to create well-structured code, 
+and they work together to create a powerful programming paradigm.

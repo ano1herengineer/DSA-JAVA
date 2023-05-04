@@ -1,0 +1,53 @@
+Basics of Exception Handling 
+
+In Java, an exception is an event that occurs during the execution of a program that disrupts the normal flow of instructions. 
+When an exception occurs, it can be "thrown" by the code that is executing and must be "caught" by the code that called 
+the method that threw the exception. If an exception is not caught, the program will terminate and an error message will be displayed.
+
+To handle exceptions, Java provides a mechanism called a try-catch block. A try block contains the code that may throw an exception,
+and a catch block handles the exception that was thrown. The catch block specifies the type of exception that it can handle,
+and if an exception of that type is thrown in the try block, the code in the catch block is executed.
+
+try {
+    // Code that may throw an exception
+} catch (ExceptionType e) {
+    // Code to handle the exception
+}
+
+
+The try statement allows you to define a block of code to be tested for errors while it is being executed.
+
+The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+
+Example
+
+Error Code
+
+public class Main {
+  public static void main(String[ ] args) {
+    int[] myNumbers = {1, 2, 3};
+    System.out.println(myNumbers[10]); // error!
+  }
+}
+
+Fixed Code 
+
+public class Main {
+  public static void main(String[ ] args) {
+    try {
+      int[] myNumbers = {1, 2, 3};
+      System.out.println(myNumbers[10]);
+    } catch (Exception e) {
+      System.out.println("Something went wrong.");
+    }
+  }
+}
+
+Output = Something went wrong.
+
+The finally statement lets you execute code, after try...catch, regardless of the result
+
+
+The throw statement allows you to create a custom error.
+The throw statement is used together with an exception type.
+There are many exception types available in Java: ArithmeticException, FileNotFoundException, ArrayIndexOutOfBoundsException, SecurityException, etc:
