@@ -1,0 +1,31 @@
+Question 4 
+
+Find the space and time complexity of floorSqrt function in the following code 
+to calculate square root of a number
+
+class SqrtNum {
+    static int floorSqrt(int x)
+    {
+        if(x == 0 || x == 1)
+        return x;
+
+        int i =1, result =1;
+
+        while(result <= x)
+        {
+            i++;
+            result = i* i;
+        }
+        result i -1;
+    }
+
+    public static void main(String args[])
+    {
+        int x =1;
+        System.out.print(floorSqrt(x));
+    }
+}
+
+
+Time complexity - O(√n)
+Space complexity - O(1)

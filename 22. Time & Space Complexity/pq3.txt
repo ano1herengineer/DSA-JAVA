@@ -1,0 +1,10 @@
+Question 3 
+
+Algorithm A and B have a worst case running time of O(n) and O(log n),
+respectively.Therefore, algorithm B always runs faster than algorithm A.
+
+Answer = False:
+
+The Big O notation provides a asymptotic comparison in the running time of algorithms.
+For n < n0, algorithm A might run faster than algorithm B, for instance.
+

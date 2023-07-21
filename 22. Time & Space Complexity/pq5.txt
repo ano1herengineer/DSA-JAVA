@@ -1,0 +1,15 @@
+Question 5
+
+Find the Space and Time Complexity of the Code snippet 
+
+int a = 0;
+for(int i =0; i < n; ++i)
+{
+    for(int j =n; j > i; --j)
+    {
+        a =a+i+j;
+    }
+}
+
+Time complexity - O(n^2)
+Space complexity - O(1)

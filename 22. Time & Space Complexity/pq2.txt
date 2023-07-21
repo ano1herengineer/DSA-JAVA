@@ -1,0 +1,11 @@
+Question 2 
+
+Find the Time Complexity of the code snippet
+
+for(int i =0; i<n; i++)
+       i*=k;
+
+Here k is some constant value
+
+Time Complexity = O(log kn)
+Because loops for the kn-1 times, so after taking log it becomes logkn
