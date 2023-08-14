@@ -82,7 +82,7 @@ public class sudoku
             }
         }
 
-        //column condition 
+        //row condition 
         for(int j =0; j <= 8; j++){
             if(sudoku[row][j] == digit)
             {
