@@ -98,4 +98,4 @@ class Mustang extends Horse{
 //Abstract classes are useful because they allow you to define a common behavior and properties 
 //that can be shared among multiple subclasses, while still allowing each subclass to provide its 
 //own implementation for certain methods. They also help in creating a hierarchy of classes 
-//and make the code more modular and easier to maintain.
+//and make the code more modular and easier to maintain.  
